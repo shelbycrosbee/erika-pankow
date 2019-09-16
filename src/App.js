@@ -1,10 +1,27 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Navigation/Header'
+import AboutPage from './components/About/AboutPage'
+import HomePage from './components/HomePage'
+import { Switch, Route, withRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <p>Erika Pankow Scholarship Foundation</p>
+    <>
+      <Header />
+      <Switch >
+        <Route
+          exact path='/'
+          render={props => <HomePage/>}
+        />
+        <Route
+          path='/about'
+          render={props => <AboutPage />}
+        />
+      </Switch>
+      
+    </>
   );
 }
 
-export default App;
+export default withRouter(App);
