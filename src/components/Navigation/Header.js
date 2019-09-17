@@ -1,52 +1,23 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
+import  { AppBar, Toolbar, CssBaseline, IconButton } from '@material-ui/core';
+import AboutMenu from './AboutMenu';
+import './index.css';
 
-function ElevationScroll(props) {
-  const { children, window } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
-  const trigger = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 0,
-    target: window ? window() : undefined,
-  });
 
-  return React.cloneElement(children, {
-    elevation: trigger ? 4 : 0,
-  });
-}
 
-ElevationScroll.propTypes = {
-  children: PropTypes.node.isRequired,
-  // Injected by the documentation to work in an iframe.
-  // You won't need it on your project.
-  window: PropTypes.func,
-};
 
-export default function ElevateAppBar(props) {
+export default function Header(props) {
   return (
-    <React.Fragment>
+    <React.Fragment  >
       <CssBaseline />
-      <ElevationScroll {...props}>
-        <AppBar>
+        <AppBar style={{backgroundColor:'black'}}>
           <Toolbar>
-            <Typography variant="h6">Erika Pankow Scholarship Fund</Typography>
+            <IconButton style={{color:"white"}} href={'/'}>Erika Pankow Scholarship Fund</IconButton>
+           <AboutMenu />
           </Toolbar>
         </AppBar>
-      </ElevationScroll>
+
       <Toolbar />
-      <Container>
-        <Box my={2}>
-        </Box>
-      </Container>
     </React.Fragment>
   );
 }
