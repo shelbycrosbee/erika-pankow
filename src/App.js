@@ -4,6 +4,8 @@ import Header from './components/Navigation/Header'
 import AboutPage from './components/About/AboutPage'
 import HomePage from './components/HomePage'
 import { Switch, Route, withRouter } from 'react-router-dom'
+import Recipients from './components/Recipients/Recipients';
+import BoardMembers from './components/BoardMembers/BoardMembers';
 
 function App() {
   return (
@@ -12,14 +14,22 @@ function App() {
       <Switch >
         <Route
           exact path='/'
-          render={props => <HomePage/>}
+          render={props => <HomePage />}
         />
         <Route
           path='/about'
           render={props => <AboutPage />}
         />
+        <Route
+          path='/recipients'
+          render={props => <Recipients />}
+        />
+        <Route
+          path='/board'
+          render={props => <BoardMembers />}
+        />
       </Switch>
-      
+
     </>
   );
 }
