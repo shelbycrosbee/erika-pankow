@@ -1,14 +1,16 @@
 import React from 'react';
-import { AppBar, Toolbar, CssBaseline, IconButton } from '@material-ui/core';
+import { AppBar, Toolbar, CssBaseline, IconButton, Button } from '@material-ui/core';
 import AboutMenu from './AboutMenu';
 import './index.css';
 import logo from '../../images/logo.png'
+import { withRouter } from 'react-router-dom'
 
 
 
-export default function Header(props) {
-  
-  return (
+class Header extends React.Component {
+
+  render (){
+    return(
     <React.Fragment  >
       <CssBaseline />
       <AppBar style={{ backgroundColor: 'black' }}>
@@ -18,10 +20,16 @@ export default function Header(props) {
             alt="logo"
             className='logoStyle'
           /></IconButton>
-          <AboutMenu />
+          <Button style={{ color: "white" }}><AboutMenu /></Button>
+          <Button style={{ color: "white" }} href="/donate"> Donate
+          </Button>
         </Toolbar>
       </AppBar>
       <Toolbar />
     </React.Fragment>
   );
+    }
+
 }
+
+export default withRouter(Header)

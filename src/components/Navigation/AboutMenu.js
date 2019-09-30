@@ -1,6 +1,5 @@
 import React from 'react';
-import { Menu, MenuItem} from '@material-ui/core';
-import { Link } from 'react-router-dom'
+import { Menu, Button } from '@material-ui/core';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 
 
@@ -13,9 +12,11 @@ function MenuPopupState() {
             About
           </div>
           <Menu {...bindMenu(popupState)}>
-            <MenuItem onClick={popupState.close} ><Link to='/about'>The Foundation</Link></MenuItem>
-            <MenuItem onClick={popupState.close}><Link to='/recipients'>Recipients</Link></MenuItem>
-            <MenuItem onClick={popupState.close}><Link to='/board'>Board Members</Link></MenuItem>
+            <Button onClick={popupState.close} href='/about'>The Foundation</Button>
+            <br/>
+            <Button onClick={popupState.close} href='/recipients'>Recipients</Button>
+            <br/>
+            <Button onClick={popupState.close} href='/board'>Board Members</Button>
           </Menu>
         </React.Fragment>
       )}

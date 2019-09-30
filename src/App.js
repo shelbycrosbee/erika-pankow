@@ -6,6 +6,7 @@ import HomePage from './components/HomePage'
 import { Switch, Route, withRouter } from 'react-router-dom'
 import Recipients from './components/Recipients/Recipients';
 import BoardMembers from './components/BoardMembers/BoardMembers';
+import Donate from './components/About/Donate'
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
           path='/board'
           render={props => <BoardMembers />}
         />
+        <Route
+          path='/donate'
+          render={props => <Donate/>}
+          />
       </Switch>
 
     </>

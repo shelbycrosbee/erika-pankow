@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from '../Navigation/Header'
+import { Container } from '@material-ui/core'
 
 class AboutPage extends React.Component {
   render() {
     return (
-      <div>
+      <Container>
         <Header />
         <p>The winter season at Big Sky Resort brings 110 ski patrollers together for six months of cold, wind filled, yet satisfying work. They work long hours, sometimes in dangerous avalanche terrain, trying to create a safer ski environment, while also assisting in intense medical events. Throughout each season, the ski patrollers forge strong relationships, becoming more like a close-knit family than just a team of coworkers. Erika Pankow was part of this close-knit family.
 <br />
@@ -12,7 +13,7 @@ class AboutPage extends React.Component {
 <br />
           Scholarships are available for local Big Sky and Gallatin Valley residents who are interested in attending training in emergency medicine, Search and Rescue, fire and avalanche safety. Applications for complete and partial scholarships are accessible through the website:
 </p>
-      </div>
+      </Container>
     )
   }
 }
