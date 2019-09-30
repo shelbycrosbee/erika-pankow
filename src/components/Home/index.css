@@ -1,0 +1,15 @@
+.homePageBackground{
+  background-image: url('../../images/cover.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed
+}
+
+.paragraphColor{
+  background-color: white;
+  line-height: 1.6;
+  padding: .5em;
+
+}

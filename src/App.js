@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Navigation/Header'
 import AboutPage from './components/About/AboutPage'
-import HomePage from './components/HomePage'
+import HomePage from './components/Home/HomePage'
 import { Switch, Route, withRouter } from 'react-router-dom'
 import Recipients from './components/Recipients/Recipients';
 import BoardMembers from './components/BoardMembers/BoardMembers';
