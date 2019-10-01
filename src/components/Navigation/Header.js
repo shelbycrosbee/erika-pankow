@@ -20,9 +20,9 @@ class Header extends React.Component {
             alt="logo"
             className='logoStyle'
           /></IconButton>
-          <Button style={{ color: "white" }}><AboutMenu /></Button>
-          <Button style={{ color: "white" }} href="/donate"> Donate
-          </Button>
+          <a className="headerButtons"><AboutMenu /></a>
+          <a href="/donate" className='headerButtons'> <b> Donate </b>
+          </a>
         </Toolbar>
       </AppBar>
       <Toolbar />

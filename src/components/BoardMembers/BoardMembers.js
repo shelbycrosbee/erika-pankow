@@ -5,9 +5,9 @@ import Header from '../Navigation/Header'
 export default class BoardMembers extends Component {
   render() {
     return (
-      <Container>
-        <Header />
-       
+      <>
+      <Header />
+      <Container style={{marginTop: '7em'}}>
         <Grid container justify="center">
           <Grid item > <h1>Board Members</h1></Grid>
           </Grid>
@@ -23,6 +23,7 @@ export default class BoardMembers extends Component {
           </Grid>
         </Grid>
       </Container>
+      </>
     )
   }
 }

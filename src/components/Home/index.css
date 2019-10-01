@@ -10,8 +10,16 @@
 .paragraphColor{
   color: white;
   line-height: 1.6;
-  padding: .5em;
+  margin-top: 5em;
   font-family: 'Mansalva', cursive;
-  font-size: 28px;
+  font-size: 30px;
+  text-align: center
+}
+
+.linksFont{
+  color: white;
+  line-height: 1.6;
+  font-family: 'Mansalva', cursive;
+  font-size: 18px;
   text-align: center
 }

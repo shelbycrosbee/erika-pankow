@@ -6,7 +6,7 @@ import { Container, Grid } from '@material-ui/core'
 export default class Recipients extends Component {
   render() {
     return (
-      <Container>
+      <Container  style={{marginTop: '7em'}}>
         <Header />
         <Grid container justify="center">
           <Grid item>

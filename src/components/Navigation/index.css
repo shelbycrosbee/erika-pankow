@@ -1,8 +1,22 @@
 .backgroundImage {
   background-color: black;
-  color: white
+  color: white;
+  font-family: 'Mansalva', cursive;
 }
 
 .logoStyle {
   height: 80px
+}
+
+.donateTag{
+  color:white;
+  text-decoration: none
+}
+
+.headerButtons{
+  color: white;
+  font-family: 'Mansalva', cursive;
+  font-size: 15px;
+  margin-right: 1em;
+  text-decoration: none;
 }

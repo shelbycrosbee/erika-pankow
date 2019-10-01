@@ -1,16 +1,29 @@
 import React from 'react';
-import { Menu, Button } from '@material-ui/core';
+import { Menu, Button, MenuItem } from '@material-ui/core';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 
+export default function SimpleMenu() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
-function MenuPopupState() {
+  const handleClick = event => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+
   return (
     <PopupState >
       {popupState => (
-        <React.Fragment>
-          <div variant="contained" {...bindTrigger(popupState)}>
+        <React.Fragment  onClick={handleClick}>
+          <b variant="contained" 
+          position="below"
+          {...bindTrigger(popupState)}
+         >
             About
-          </div>
+          </b>
           <Menu {...bindMenu(popupState)}>
             <Button onClick={popupState.close} href='/about'>The Foundation</Button>
             <br/>
@@ -24,4 +37,4 @@ function MenuPopupState() {
   );
 }
 
-export default MenuPopupState;
+
