@@ -11,7 +11,7 @@ import Donate from './components/About/Donate'
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Switch >
         <Route
           exact path='/'

@@ -8,8 +8,10 @@
 }
 
 .paragraphColor{
-  background-color: white;
+  color: white;
   line-height: 1.6;
   padding: .5em;
-
+  font-family: 'Mansalva', cursive;
+  font-size: 28px;
+  text-align: center
 }
