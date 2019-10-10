@@ -30,6 +30,8 @@ export default function SimpleMenu() {
             <Button onClick={popupState.close} href='/recipients'>Recipients</Button>
             <br/>
             <Button onClick={popupState.close} href='/board'>Board Members</Button>
+            <br/>
+            <Button onClick={popupState.close} href='/highway'>Adopt a Highway</Button>
           </Menu>
         </React.Fragment>
       )}

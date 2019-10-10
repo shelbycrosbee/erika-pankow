@@ -21,6 +21,7 @@ class Header extends React.Component {
             className='logoStyle'
           /></IconButton>
           <a className="headerButtons"><AboutMenu /></a>
+          <a href="apply" className="headerButtons"><b> Apply </b></a>
           <a href="/donate" className='headerButtons'> <b> Donate </b>
           </a>
         </Toolbar>

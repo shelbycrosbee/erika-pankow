@@ -11,7 +11,7 @@ export default class Apply extends Component {
         <Grid container justify="center">
           <Grid item>
           <h1>Apply</h1>
-          <p>To apply, please fill out this pdf....</p>
+          <p>To apply, please fill out this pdf and email it erikapankowscholarshipfund@gmail.com</p>
           </Grid>
         </Grid>
       </Container>

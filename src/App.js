@@ -7,6 +7,7 @@ import Recipients from './components/Recipients/Recipients';
 import BoardMembers from './components/BoardMembers/BoardMembers';
 import Donate from './components/About/Donate'
 import Apply from './components/Apply/Apply'
+import Highway from './components/Highway/Highway';
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
         <Route
           path='/apply'
           render={props => <Apply />}
+          />
+        <Route 
+          path='/highway'
+          render={props=> <Highway />}
           />
       </Switch>
 
