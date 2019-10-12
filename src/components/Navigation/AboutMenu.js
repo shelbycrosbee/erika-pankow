@@ -25,7 +25,7 @@ export default function SimpleMenu() {
             About
           </b>
           <Menu {...bindMenu(popupState)}>
-            <Button onClick={popupState.close} href='/about'>The Foundation</Button>
+            <Button onClick={popupState.close} href='/about'>Erika's Story</Button>
             <br/>
             <Button onClick={popupState.close} href='/recipients'>Recipients</Button>
             <br/>

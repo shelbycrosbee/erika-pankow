@@ -9,21 +9,21 @@ export default class HomePage extends Component {
   render() {
     return (
 
-      <Container className="homePageBackground">
-        <p className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></p>
+      <div className="homePageBackground" >
+        <h1 className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></h1>
 
-        <Grid container spacing={3} justify="center" wrap >
+        <Grid container spacing={3} justify="center" wrap className="linksFont">
           <Grid lg={4} md={4} sm={4} xs={12} item>
-           <p className="linksFont"> <AboutMenu /> </p>
+           <h3 > <AboutMenu /> </h3>
           </Grid>
           <Grid lg={4} md={4} sm={4} xs={12} item>
-            <p className="linksFont"> <ApplyButton /> </p>
+            <h3 > <ApplyButton /> </h3>
           </Grid>
           <Grid lg={4} md={4} sm={4} xs={12} item>
-           <p className="linksFont"> <DonateButton /> </p> 
+           <h3 > <DonateButton /> </h3> 
           </Grid>
         </Grid>
-      </Container>
+      </div>
 
     )
   }
