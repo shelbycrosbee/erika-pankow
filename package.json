@@ -5,9 +5,11 @@
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",
+    "@react-pdf/renderer": "^1.6.7",
     "material-ui-popup-state": "^1.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-pdf": "^4.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },

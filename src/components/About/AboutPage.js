@@ -3,13 +3,14 @@ import Header from '../Navigation/Header'
 import { Container, Grid, Box } from '@material-ui/core'
 import './index.css'
 import plaque from '../../images/plaque.jpg'
-
+import erika from '../../images/erika.jpg'
 
 class AboutPage extends React.Component {
   render() {
     return (
       <Container >
         <Header />
+        
         <Grid container spacing={12} style={{marginTop: '3em'}}>
           <Grid item lg={6} md={6} sm={12}>
             <p> The winter season at Big Sky Resort brings 110 ski patrollers together for six months of cold, wind filled, yet satisfying work. They work long hours, sometimes in dangerous avalanche terrain, trying to create a safer ski environment, while also assisting in intense medical events. Throughout each season, the ski patrollers forge strong relationships, becoming more like a close-knit family than just a team of coworkers. Erika Pankow was part of this close-knit family.
@@ -23,6 +24,9 @@ class AboutPage extends React.Component {
           </Grid>
           <Grid item lg={6} md={6} sm={12} >
             <Box className='aboutPageImage'></Box>
+           <Grid item item lg={6} md={6} sm={12}>
+          <img src={erika} alt="erika" className='aboutPageImage'/>
+          </Grid>
             </Grid>
         </Grid>
       </Container>
