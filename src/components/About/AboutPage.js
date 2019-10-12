@@ -25,7 +25,7 @@ class AboutPage extends React.Component {
           <Grid item lg={6} md={6} sm={12} >
             <Box className='aboutPageImage'></Box>
            <Grid item item lg={6} md={6} sm={12}>
-          <img src={erika} alt="erika" className='aboutPageImage'/>
+          <img src={erika} alt="erika" />
           </Grid>
             </Grid>
         </Grid>
