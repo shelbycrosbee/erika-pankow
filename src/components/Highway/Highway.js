@@ -8,17 +8,16 @@ import './highway.css'
 export default class Highway extends Component {
   render() {
     return (
-      <Container  style={{marginTop: '3em'}}>
+      <Container  style={{marginTop: '3em'}} justify="center">
         <Header />
-        <Grid container spacing={1} justify="center">
+        <Grid container justify="center">
           <Grid item>
-          <h1>Adopt a Highway</h1>
-          <p>The EPSF has adopted US Highway 191 from mile marker 33 to 36 us191</p>
+          <h3>The Erika Pankow Scholarship Foundation has adopted mile marker 33 to 36 on US Highway 191 </h3>
           </Grid>
         </Grid>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} justify="center">
           <Grid item lg={6} md={6}><img src={highway} alt='highway'className="highwayPhoto"/></Grid>
-          <Grid item lg={6} md={6}><img src={litter} alt='litter'className="highwayPhoto"/></Grid>
+          <Grid item lg={6} md={6}><img src={litter} alt='litter'className="highwayPhoto"justify="center"/></Grid>
         </Grid>
       </Container>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu, Button, MenuItem } from '@material-ui/core';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
+import './index.css'
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -25,13 +26,13 @@ export default function SimpleMenu() {
             About
           </b>
           <Menu {...bindMenu(popupState)}>
-            <Button onClick={popupState.close} href='/about'>Erika's Story</Button>
+            <Button onClick={popupState.close} href='/about'  className="menuButtons">Erika's Story</Button>
             <br/>
-            <Button onClick={popupState.close} href='/recipients'>Recipients</Button>
+            <Button onClick={popupState.close} href='/recipients'  className="menuButtons">Recipients</Button>
             <br/>
-            <Button onClick={popupState.close} href='/board'>Board Members</Button>
+            <Button onClick={popupState.close} href='/board'  className="menuButtons">Board Members</Button>
             <br/>
-            <Button onClick={popupState.close} href='/highway'>Adopt a Highway</Button>
+            <Button onClick={popupState.close} href='/highway'  className="menuButtons">Adopt a Highway</Button>
           </Menu>
         </React.Fragment>
       )}

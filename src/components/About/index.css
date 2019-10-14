@@ -1,14 +1,36 @@
-.aboutPageImage{
+.plaqueImg{
   background-image: url('../../images/plaque.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   position: fixed;
   background-position: center; 
-  background-repeat: no-repeat;
-  background-size: 80vh;
-  height: 100vh;
-  width: 50vw;
+  /* background-repeat: no-repeat; */
+  /* background-size: 80vh; */
+  height: 40em;
+  overflow: hidden;
+  overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+  /* width: 50vw; */
 }
 
 p {
   text-indent: 30pt;
+  overflow: hidden;
+  flex-wrap: wrap;
+  word-wrap: normal;
+}
+
+.donateImg{
+  height: 20em;
+ 
+}
+
+.erikaImg{
+  height:20em;
+  background-position: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
 }

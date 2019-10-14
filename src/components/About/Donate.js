@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Navigation/Header'
-import { Container } from '@material-ui/core'
+import { Container, Grid } from '@material-ui/core'
+import bssa from '../../images/bssa.png'
 
 export default class Donate extends React.Component {
 
@@ -14,6 +15,12 @@ export default class Donate extends React.Component {
 
         If you would like a receipt to confirm payment, please email erikapankowscholarshipfund@gmail.com
       </div>
+      <Grid container>
+        <h1>Past Sponshorship</h1>
+        <Grid item>
+          <img src={bssa} alt="bssa" className="donateImg"/>
+        </Grid>
+      </Grid>
       </Container>
     )
   }

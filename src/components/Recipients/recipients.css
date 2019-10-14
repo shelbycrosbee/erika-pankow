@@ -1,3 +1,9 @@
 .imgRecipients {
   height: 25em;
+  padding-left: 1em;
+}
+
+figcaption{
+  padding-bottom: 2em;
+  text-align: center;
 }

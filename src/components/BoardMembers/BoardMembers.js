@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Grid, Typography } from '@material-ui/core'
 import Header from '../Navigation/Header'
+import bssp from '../../images/bssp.png'
+import './index.css'
 
 export default class BoardMembers extends Component {
   render() {
@@ -14,15 +16,16 @@ export default class BoardMembers extends Component {
           <Grid container spacing={3} >
             <Grid item lg={4} md={4} sm={6} className="memberCards">
               <Typography>Mark Loomis Fire Department </Typography>
-              <img src="https://bigskyfire.org/wp-content/uploads/2018/04/local-4732-big-sky-montana-fire-department-badge-resort-tax.png" alt="fire dept" />
+              <img src="https://bigskyfire.org/wp-content/uploads/2018/04/local-4732-big-sky-montana-fire-department-badge-resort-tax.png" alt="fire dept" className="logos"/>
 
             </Grid>
             <Grid item lg={4} md={4} sm={6} className="memberCards">
               <Typography> Bart Mitchell Ski Patrol </Typography>
+              <img src={bssp} alt="patrol" className="logos" />
             </Grid>
             <Grid item lg={4} md={4} sm={6} className="memberCards">
               <Typography>Rachel Efta Search and Rescue</Typography>
-              <img src="http://www.bssar.org/images/logo.gif" alt="search and rescue" />
+              <img src="http://www.bssar.org/images/logo.gif" alt="search and rescue" className="logos"/>
             </Grid>
           </Grid>
           <Grid container spacing={1} justify="center"> 

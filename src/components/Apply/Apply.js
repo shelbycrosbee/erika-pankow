@@ -31,13 +31,13 @@ export default class Apply extends Component {
   Three letters of recommendation with current contact information.
   Available for personal interview if necessary.
 </p>
-            <p>Please send applications to: 
-              
-             <a href="mailto:erikapankowscholarshipfund@gmail.com">erikapankowscholarshipfund@gmail.com</a>
+            {/* <p>Please send applications to:  */}
+{/*               
+             <a href="mailto:erikapankowscholarshipfund@gmail.com">erikapankowscholarshipfund@gmail.com</a> */}
 
              <Button href={app} target="_blank" className="pdfButton">Download Application</Button>
 
-             </p>
+             {/* </p> */}
 
             
 

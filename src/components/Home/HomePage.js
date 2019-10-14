@@ -10,8 +10,10 @@ export default class HomePage extends Component {
     return (
 
       <div className="homePageBackground" >
+         
+           <Grid>
         <h1 className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></h1>
-
+        </Grid>
         <Grid container spacing={3} justify="center" wrap className="linksFont">
           <Grid lg={4} md={4} sm={4} xs={12} item>
            <h3 > <AboutMenu /> </h3>
