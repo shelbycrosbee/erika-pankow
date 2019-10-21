@@ -11,7 +11,7 @@ import katie from '../../images/katie.jpg'
 import luke from '../../images/luke.jpg'
 import kjetil from '../../images/kjetil.jpg'
 import orient from '../../images/orient.jpg'
-import nick from '../../images/nick.JPG'
+import nick from '../../images/nick.jpeg'
 import nick2 from '../../images/nick2.jpeg'
 import './recipients.css'
 
