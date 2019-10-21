@@ -1,5 +1,7 @@
 .highwayPhoto{
   overflow: hidden;
-  height: 28em;
-  align-content: center;
+  height: 40em;
+  justify-content: center;
+  padding: 1em;
 }
+

@@ -38,7 +38,7 @@ export default class Recipients extends Component {
           </Grid>
           <Grid item>
             <img src={shives} alt="shives" className="imgRecipients" />
-            <figcaption>2018 Ian Shives with Flapjack <br/> <a href="https://www.americanavalancheinstitute.com/courses/k9-training-course/">American Avalanche Institiue K9 Training </a></figcaption>
+            <figcaption>2018 Ian Shives and Flapjack <br/> <a href="https://www.americanavalancheinstitute.com/courses/k9-training-course/">American Avalanche Institiue K9 Training </a></figcaption>
           </Grid>
           <Grid item>
             <img src={nick} alt="nick" className="imgRecipients"/>
@@ -53,14 +53,14 @@ export default class Recipients extends Component {
             <img src={noah} alt="noah" className="imgRecipients" /><img src={noah2} alt="noah2" className="imgRecipients" /><figcaption>2015 Noah Ronczkowski <br /><a href="https://riggingforrescue.com/">Rigging for Rescue</a></figcaption>
           </Grid>
           <Grid item>
-            <img src={danny} alt="Danny and Pulver" className="imgRecipients" /><img src={danny2} alt="Danny and Pulver 2" className="imgRecipients" /><figcaption>Danny Skilling with Pulver  <br /> <a href="http://www.carda.ca/">Canadian Avalance Rescue Dog Association</a> (CARDA)</figcaption>
+            <img src={danny} alt="Danny and Pulver" className="imgRecipients" /><img src={danny2} alt="Danny and Pulver 2" className="imgRecipients" /><figcaption>Danny Skilling and Pulver  <br /> <a href="http://www.carda.ca/">Canadian Avalance Rescue Dog Association</a> (CARDA)</figcaption>
           </Grid>
           <Grid item>
-            <img src={tyler} alt="Tyler and Ruger" className="imgRecipients" /><figcaption>Tyler Dingerson with Ruger <br /><a href="http://www.carda.ca/">CARDA</a></figcaption>
+            <img src={tyler} alt="Tyler and Ruger" className="imgRecipients" /><figcaption>Tyler Dingerson and Ruger <br /><a href="http://www.carda.ca/">CARDA</a></figcaption>
           </Grid>
           <Grid item>
             <img src={katie} alt="katie" className="imgRecipients" />
-            <figcaption>2005 Katie Feris WBR Mowgli <br /><a href="https://www.wbrescue.org/professional-schools-seminars.html">Wasatch Backcountry Rescue</a> </figcaption>
+            <figcaption>2005 Katie Feris and Mowgli <br /><a href="https://www.wbrescue.org/professional-schools-seminars.html">Wasatch Backcountry Rescue</a> </figcaption>
           </Grid>
         </Grid>
       </Container>

@@ -9,22 +9,22 @@ export default class BoardMembers extends Component {
     return (
       <>
         <Header />
-        <Container style={{ marginTop: '5em' }}>
+        <Container style={{ marginTop: '3em' }}>
           <Grid container justify="center">
             <Grid item > <h1>Board Members</h1></Grid>
           </Grid>
           <Grid container spacing={3} >
             <Grid item lg={4} md={4} sm={6} className="memberCards">
-              <Typography>Mark Loomis Fire Department </Typography>
+              <figcaption>Mark Loomis Fire Department </figcaption>
               <img src="https://bigskyfire.org/wp-content/uploads/2018/04/local-4732-big-sky-montana-fire-department-badge-resort-tax.png" alt="fire dept" className="logos"/>
 
             </Grid>
             <Grid item lg={4} md={4} sm={6} className="memberCards">
-              <Typography> Bart Mitchell Ski Patrol </Typography>
+              <figcaption> Bart Mitchell Ski Patrol </figcaption>
               <img src={bssp} alt="patrol" className="logos" />
             </Grid>
             <Grid item lg={4} md={4} sm={6} className="memberCards">
-              <Typography>Rachel Efta Search and Rescue</Typography>
+              <figcaption>Rachel Efta Search and Rescue</figcaption>
               <img src="http://www.bssar.org/images/logo.gif" alt="search and rescue" className="logos"/>
             </Grid>
           </Grid>

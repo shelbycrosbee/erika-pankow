@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
     <>
         <Header />
         <Container >
-        <Grid container spacing={2} style={{marginTop: '3em'}}>
+        <Grid container spacing={2} style={{marginTop: '4em'}}>
         <Grid item lg={7} md={7} sm={12} xs={12} justify="center"> 
           <img src={erika} alt="erika" className="erikaImg"/>
    

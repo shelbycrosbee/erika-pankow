@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import AboutPage from './components/About/AboutPage'
 import HomePage from './components/Home/HomePage'
 import { Switch, Route, withRouter } from 'react-router-dom'
