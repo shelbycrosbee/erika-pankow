@@ -11,7 +11,8 @@ import katie from '../../images/katie.jpg'
 import luke from '../../images/luke.jpg'
 import kjetil from '../../images/kjetil.jpg'
 import orient from '../../images/orient.jpg'
-import nick from '../../images/nick.jpg'
+import nick from '../../images/nick.JPG'
+import nick2 from '../../images/nick2.jpeg'
 import './recipients.css'
 
 
@@ -27,7 +28,7 @@ export default class Recipients extends Component {
         <Header />
         <Grid container justify="center">
           <Grid item>
-            <h1>Recipients</h1>
+            <h1>Recipients of an EPSF Scholarship</h1>
           </Grid></Grid>
         <Grid container justify="center" style={{ marginTop: '1em', marginBottom: '2em' }}>
 
@@ -41,6 +42,7 @@ export default class Recipients extends Component {
           </Grid>
           <Grid item>
             <img src={nick} alt="nick" className="imgRecipients"/>
+            <img src={nick2} alt="nick 2" className="imgRecipients"/>
             <figcaption>2018 Nick Efta Firefighter 2</figcaption>
           </Grid>
           <Grid item>

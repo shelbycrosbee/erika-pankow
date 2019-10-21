@@ -9,12 +9,14 @@ export default class Donate extends React.Component {
     return (
       <Container >
       <Header/>
-      <div style={{ marginTop:'5em'}}>
-        If you would like to give to the Erika Pankow Scholarship Fund you can head down to First Security Bank in Big Sky, MT and say you would like to donate to account name Erika Scholaraship Fund and under the checking account number 221112.
-
-
-        If you would like a receipt to confirm payment, please email erikapankowscholarshipfund@gmail.com
-      </div>
+      
+      <p style={{ marginTop:'4em'}}>
+      <h3>How To Donate</h3>
+        If you would like to give to the Erika Pankow Scholarship Fund you can head down to First Security Bank in Big Sky, MT and say you would like to donate to account name Erika Scholaraship Fund, the checking account number 221112.
+        </p>
+      <p>
+        For a receipt to confirm payment, please email erikapankowscholarshipfund@gmail.com
+      </p>
       <Grid container>
         <h1>Past Sponshorship</h1>
         <Grid item>
