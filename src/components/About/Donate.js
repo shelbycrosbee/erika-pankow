@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Navigation/Header'
-import { Container, Grid } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import bssa from '../../images/bssa.png'
 import sponsors from '../../images/sponsors.JPG'
 import beehive from '../../images/beehive.png'
@@ -12,7 +12,7 @@ export default class Donate extends React.Component {
 
   render() {
     return (
-      <Container >
+      <div style={{paddingRight:'5em', paddingLeft:'5em'}}>
       <Header/>
       <h1 style={{ marginTop:'3em'}}>How To Donate</h1>
       <p>
@@ -22,18 +22,18 @@ export default class Donate extends React.Component {
       <p>
         For a receipt to confirm payment, please email erikapankowscholarshipfund@gmail.com
       </p>
-      <h1>Past Sponshorship</h1>
-      <Grid container>
-        
+      <h1>Our Past Sponsors</h1>
+      <Grid container justify="center">
+      <Grid item>
+          <img src={cave} alt="cave" className="donateImg" />
+        </Grid>
         <Grid item>
           <img src={bssa} alt="bssa" className="donateImg"/>
         </Grid>
         <Grid item>
           <img src={beehive} alt="beehive" className="donateImg" />
         </Grid>
-        <Grid item>
-          <img src={cave} alt="cave" className="donateImg" />
-        </Grid>
+       
         <Grid item>
           <img src={cave2} alt="cave2" className="sponsorImg" />
         </Grid>
@@ -41,7 +41,7 @@ export default class Donate extends React.Component {
           <img src={sponsors} alt="sponsors" className="sponsorImg"/>
         </Grid>
       </Grid>
-      </Container>
+      </div>
     )
   }
 }

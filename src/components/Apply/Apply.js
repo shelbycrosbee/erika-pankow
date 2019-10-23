@@ -7,7 +7,7 @@ import './apply.css';
 export default class Apply extends Component {
   render() {
     return (
-      <Container style={{ marginTop: '3em' }}>
+      <div style={{ marginTop: '3em', paddingLeft:'3em', paddingRight:'3em', paddingBottom:'3em' }}>
         <Header />
         <Grid container justify="center">
         <h1>Apply</h1>
@@ -44,7 +44,7 @@ export default class Apply extends Component {
 
           </Grid>
         </Grid>
-      </Container>
+      </div>
     )
   }
 }

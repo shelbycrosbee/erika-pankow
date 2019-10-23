@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, CssBaseline, IconButton, Button } from '@material-ui/core';
+import { AppBar, Toolbar, CssBaseline, IconButton} from '@material-ui/core';
 import AboutMenu from './AboutMenu';
 import './index.css';
 import logo from '../../images/logo.png'
@@ -20,8 +20,10 @@ class Header extends React.Component {
             alt="logo"
             className='logoStyle'
           /></IconButton>
-          <a className="headerButtons"><AboutMenu /></a>
-          <a href="apply" className="headerButtons"><b> Apply </b></a>
+          <p className="headerButtons">
+            <AboutMenu />
+            </p>
+          <a href="/apply" className="headerButtons"><b> Apply </b></a>
           <a href="/donate" className='headerButtons'> <b> Donate </b>
           </a>
         </Toolbar>

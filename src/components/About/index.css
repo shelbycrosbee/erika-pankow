@@ -1,13 +1,13 @@
 .plaqueImg{
   background-position: center; 
-  height: 90vh;
+  max-width: 100%;
   overflow: hidden;
   padding-bottom: 3em;
 
 }
 .gladeImg{
   background-position: center; 
-  height: 53vh;
+ max-width: 100%;
   overflow: hidden;
 }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Grid, Typography } from '@material-ui/core'
+import { Container, Grid } from '@material-ui/core'
 import Header from '../Navigation/Header'
 import bssp from '../../images/bssp.png'
 import './index.css'

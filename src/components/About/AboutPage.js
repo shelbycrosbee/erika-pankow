@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Navigation/Header'
-import { Container, Grid, Box } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import './index.css'
 import plaque from '../../images/plaque.jpg'
 import erika from '../../images/erika.jpg'
@@ -14,9 +14,9 @@ class AboutPage extends React.Component {
     return (
     <>
         <Header />
-        <Container>
-        <Grid container spacing={2} style={{marginTop: '4em'}}>
-        <Grid item lg={6} md={12} sm={12} xs={12}> 
+        
+        <Grid container spacing={2} style={{marginTop: '4em'}} justify="center">
+        <Grid item lg={6} md={12} sm={12} xs={12} style={{paddingLeft:'3em', paddingRight:'3em'}}> 
           <img src={erika} alt="erika" className="erikaImg"/>
    
             <p> The winter season at Big Sky Resort brings 110 ski patrollers together for six months of cold, wind filled, yet satisfying work. They work long hours, sometimes in dangerous avalanche terrain, trying to create a safer ski environment, while also assisting in intense medical events. Throughout each season, the ski patrollers forge strong relationships, becoming more like a close-knit family than just a team of coworkers. Erika Pankow was part of this close-knit family.
@@ -35,7 +35,7 @@ class AboutPage extends React.Component {
           </Grid>
            
         </Grid>
-      </Container>
+   
       </>
     )
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../Navigation/Header'
-import { Container, Grid } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import highway from '../../images/highway.jpg'
 import litter from '../../images/litter.jpg'
 import './highway.css'
@@ -8,7 +8,7 @@ import './highway.css'
 export default class Highway extends Component {
   render() {
     return (
-      <Container  style={{marginTop: '3em'}} justify="center">
+      <div  style={{marginTop: '3em', paddingLeft:'3em', paddingRight:'3em'}} justify="center">
         <Header />
         <Grid container justify="center">
           <Grid item>
@@ -19,7 +19,7 @@ export default class Highway extends Component {
           <Grid ><img src={highway} alt='highway'className="highwayPhoto"/></Grid>
           <Grid ><img src={litter} alt='litter'className="highwayPhoto"justify="center"/></Grid>
         </Grid>
-      </Container>
+      </div>
     )
   }
 }
