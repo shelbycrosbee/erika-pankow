@@ -8,10 +8,22 @@
   height: 90px
 }
 
-.donateTag{
-  color:white;
+
+
+.navTag{
+  color: black;
+  background-color: white!important;
   text-decoration: none;
-  font-size:25px;
+  font-family:  'Mansalva', cursive!important;
+  font-size:25px!important;
+
+}
+.navTag:hover{
+  color: rgb(34, 44, 129);
+  text-decoration: none;
+  font-family:  'Mansalva', cursive!important;
+  font-size: 30px!important;
+  font-weight: bolder;
 }
 
 .headerButtons{

@@ -4,6 +4,7 @@ import { Container, Grid, Box } from '@material-ui/core'
 import './index.css'
 import plaque from '../../images/plaque.jpg'
 import erika from '../../images/erika.jpg'
+import glade from '../../images/glade.jpg'
 
 class AboutPage extends React.Component {
 
@@ -13,9 +14,9 @@ class AboutPage extends React.Component {
     return (
     <>
         <Header />
-        <Container >
+        <Container>
         <Grid container spacing={2} style={{marginTop: '4em'}}>
-        <Grid item lg={7} md={7} sm={12} xs={12} justify="center"> 
+        <Grid item lg={6} md={12} sm={12} xs={12}> 
           <img src={erika} alt="erika" className="erikaImg"/>
    
             <p> The winter season at Big Sky Resort brings 110 ski patrollers together for six months of cold, wind filled, yet satisfying work. They work long hours, sometimes in dangerous avalanche terrain, trying to create a safer ski environment, while also assisting in intense medical events. Throughout each season, the ski patrollers forge strong relationships, becoming more like a close-knit family than just a team of coworkers. Erika Pankow was part of this close-knit family.
@@ -27,9 +28,12 @@ class AboutPage extends React.Component {
               <p>Today, a plaque stands in Erika's honor marking her namesake ski run off Big Sky's Lone Peak, called Erika's Glade. 'Adopt a Highway' off Hwy 191 at mile marker 33-36 is also adopted in Erika's honor. For those who worked with Erika and were touched by her kind spirit, for memories of her are still fresh in thier minds. "Erika's smile was one that would light up your life," said long time Big Sky ski patroller Jay Frisque (AKA Magnum). "She was someone special, and she just wanted to help people"</p>
 </p>
           </Grid>
-          <Grid item  lg={5} md={5} sm={12} xs={12}>
-            <img src={plaque} alt="plaque" className='plaqueImg'/>
-            </Grid>
+     
+          <Grid item  lg={5} md={12} sm={12} xs={12} alignContent="center">
+           <img src={plaque} alt="plaque" className='plaqueImg'/>
+            <img src={glade} alt="glade" className='gladeImg'/>
+          </Grid>
+           
         </Grid>
       </Container>
       </>

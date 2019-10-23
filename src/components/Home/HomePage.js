@@ -10,21 +10,26 @@ export default class HomePage extends Component {
     return (
 
       <div className="homePageBackground" >
-         
-           <Grid>
-        <h1 className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></h1>
+            <Grid container justify="center" >
+              <Grid item>
+        <h1 className="paragraphColor" style={{fontSize:'45px'}}><b>Erika Pankow Scholarship Foundation</b></h1>
         </Grid>
-        <Grid container spacing={3} justify="center" wrap className="linksFont">
-          <Grid lg={4} md={4} sm={4} xs={12} item>
-           <h3 > <AboutMenu /> </h3>
+        </Grid>
+        {/* <h1 className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></h1> */}
+        <Grid container spacing={3} justify="center" className="linksFont">
+          <Grid lg={4} md={4} sm={4} xs={12} item >
+           <Button className="navTag"> <AboutMenu /> </Button>
           </Grid>
-          <Grid lg={4} md={4} sm={4} xs={12} item>
-            <h3 > <ApplyButton /> </h3>
+
+          <Grid lg={4} md={4} sm={4} xs={12} item >
+             <ApplyButton /> 
           </Grid>
-          <Grid lg={4} md={4} sm={4} xs={12} item>
-           <h3 > <DonateButton /> </h3> 
+
+          <Grid lg={4} md={4} sm={4} xs={12} item >
+           <DonateButton />
           </Grid>
         </Grid>
+
       </div>
 
     )

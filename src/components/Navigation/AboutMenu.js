@@ -22,7 +22,7 @@ export default function SimpleMenu() {
           <b variant="contained" 
           position="below"
           {...bindTrigger(popupState)}
-          className="donateTag"
+          // className="aboutTag"
          >
             About
           </b>

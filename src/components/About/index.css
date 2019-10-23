@@ -1,11 +1,14 @@
 .plaqueImg{
-  background-image: url('../../images/plaque.jpg');
-  position: fixed;
   background-position: center; 
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
-  flex-wrap: wrap;
-  display: flex;
+  padding-bottom: 3em;
+
+}
+.gladeImg{
+  background-position: center; 
+  height: 53vh;
+  overflow: hidden;
 }
 
 p {
@@ -30,6 +33,7 @@ p {
   flex-wrap: wrap;
   display: flex;
   margin: auto;
+
 }
 
 .sponsorImg {

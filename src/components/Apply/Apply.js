@@ -10,8 +10,9 @@ export default class Apply extends Component {
       <Container style={{ marginTop: '3em' }}>
         <Header />
         <Grid container justify="center">
+        <h1>Apply</h1>
           <Grid item >
-            <h1>Apply</h1>
+          
             <p><b>Background: </b>
               The Erika Pankow Scholarship Fund was founded in 1997, through generous donations, sponsorships and fundraising events. Members from Big Sky Search and Rescue, Gallatin Canyon Volunteer Fire Department, and Big Sky Ski Patrol originally managed the fund, as Erika was a member of each organization. Today, co-founder Jay Frisque (Mangum) and elected members of the Big Ski Patrol manage the fund. Full or partial scholarships will be given, dependent on the availability of funds in the scholarship account.
   </p>
