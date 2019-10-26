@@ -9,6 +9,7 @@ import noah2 from '../../images/noah2.jpg'
 import shives from '../../images/shives.jpg'
 import katie from '../../images/katie.jpg'
 import luke from '../../images/luke.jpg'
+import luke2 from '../../images/luke2.jpeg'
 import kjetil from '../../images/kjetil.jpg'
 import orient from '../../images/orient.jpg'
 import nick from '../../images/nick.jpeg'
@@ -37,7 +38,8 @@ export default class Recipients extends Component {
        
           <Grid item>
             <img src={luke} alt="luke" className="imgRecipients" />
-            <figcaption>2019 Luke Thompson Avalance 2</figcaption>
+            <img src={luke2} alt="luke2" className="imgRecipients" />
+            <figcaption>2019 Luke Thompson Avalance 2<br/><a href="https://www.facebook.com/pages/category/Education/Big-Sky-Avalanche-Foundation-for-Education-BSAFE-125755794796912/">Big Sky Avalanche Foundation for Education</a> (BSAFE)</figcaption>
         
           </Grid>
          
