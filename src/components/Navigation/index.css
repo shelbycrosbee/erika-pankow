@@ -12,17 +12,16 @@
 
 .navTag{
   color: black;
-  background-color: white!important;
+  background-color: rgb(201, 252, 158)!important;
   text-decoration: none;
   font-family:  'Mansalva', cursive!important;
   font-size:25px!important;
 
 }
 .navTag:hover{
-  color: rgb(34, 44, 129);
+  color: rgb(94, 139, 235);
   text-decoration: none;
   font-family:  'Mansalva', cursive!important;
-  font-size: 30px!important;
   font-weight: bolder;
 }
 

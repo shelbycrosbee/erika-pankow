@@ -13,6 +13,7 @@ import kjetil from '../../images/kjetil.jpg'
 import orient from '../../images/orient.jpg'
 import nick from '../../images/nick.jpeg'
 import nick2 from '../../images/nick2.jpeg'
+import dogs from '../../images/patrol dogs.jpg'
 import './recipients.css'
 
 
@@ -67,13 +68,13 @@ export default class Recipients extends Component {
 
          
           <Grid item>
-            <img src={danny} alt="Danny and Pulver" className="imgRecipients" /><img src={danny2} alt="Danny and Pulver 2" className="imgRecipients" /><figcaption>Danny Skilling and Pulver  <br /> <a href="http://www.carda.ca/">Canadian Avalance Rescue Dog Association</a> (CARDA)</figcaption>
+            <img src={danny} alt="Danny and Pulver" className="imgRecipients" /><img src={danny2} alt="Danny and Pulver 2" className="imgRecipients" /><figcaption>2005 Danny Skilling and Pulver  <br /> <a href="http://www.carda.ca/">Canadian Avalance Rescue Dog Association</a> (CARDA)</figcaption>
           </Grid>
        
 
          
           <Grid item>
-            <img src={tyler} alt="Tyler and Ruger" className="imgRecipients" /><figcaption>Tyler Dingerson and Ruger <br /><a href="http://www.carda.ca/">CARDA</a></figcaption>
+            <img src={tyler} alt="Tyler and Ruger" className="imgRecipients" /><figcaption>2005 Tyler Dingerson and Ruger <br /><a href="http://www.carda.ca/">CARDA</a></figcaption>
           </Grid>
         
 
@@ -82,7 +83,10 @@ export default class Recipients extends Component {
             <img src={katie} alt="katie" className="imgRecipients" />
             <figcaption>2005 Katie Feris and Mowgli <br /><a href="https://www.wbrescue.org/professional-schools-seminars.html">Wasatch Backcountry Rescue</a> </figcaption>
           </Grid>
-       
+          <Grid item>
+            <img src={dogs} alt="patrol dogs" className="imgRecipients" />
+            <figcaption>Mowgli with his Patrol Dog friends </figcaption>
+          </Grid>
         </Grid>
       </div>
     )
