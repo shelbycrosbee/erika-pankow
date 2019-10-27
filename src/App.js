@@ -17,29 +17,25 @@ function App() {
           render={props => <HomePage />}
         />
         <Route
-          path='/about'
-          render={props => <AboutPage />}
-        />
+          path='/about'>
+          <AboutPage />}
+          </Route>
         <Route
           path='/recipients'
-          render={props => <Recipients />}
-        />
+          ><Recipients /></Route>
         <Route
-          path='/board'
-          render={props => <BoardMembers />}
-        />
+          path='/board'>
+         <BoardMembers />
+        </Route>
         <Route
           path='/donate'
-          render={props => <Donate/>}
-          />
+         ><Donate/></Route>
         <Route
           path='/apply'
-          render={props => <Apply />}
-          />
+        ><Apply /></Route>
         <Route 
           path='/highway'
-          render={props=> <Highway />}
-          />
+        ><Highway /></Route>
       </Switch>
 
     </>
