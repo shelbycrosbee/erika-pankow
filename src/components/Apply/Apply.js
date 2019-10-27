@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Navigation/Header';
-import { Container, Grid, Button } from '@material-ui/core';
+import { Grid, Button } from '@material-ui/core';
 import app from '../../images/application.pdf';
 import './apply.css';
 
