@@ -12,7 +12,7 @@ export default class HomePage extends Component {
       <div className="homePageBackground" >
             <Grid container justify="center" >
               <Grid item>
-        <h1 className="titleColor" style={{fontSize:'45px'}}><b>Erika Pankow Scholarship Foundation</b></h1>
+        <h1 className="titleColor" ><b>Erika Pankow Scholarship Foundation</b></h1>
         </Grid>
         </Grid>
         {/* <h1 className="paragraphColor"><b>Erika Pankow Scholarship Foundation</b></h1> */}
