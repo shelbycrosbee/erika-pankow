@@ -7,6 +7,7 @@ import BoardMembers from './components/BoardMembers/BoardMembers';
 import Donate from './components/About/Donate'
 import Apply from './components/Apply/Apply'
 import Highway from './components/Highway/Highway';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -24,17 +25,13 @@ function App() {
           path='/recipients'
           ><Recipients /></Route>
         <Route
-          path='/board'>
-         <BoardMembers />
-        </Route>
-        <Route
           path='/donate'
          ><Donate/></Route>
         <Route
           path='/apply'
         ><Apply /></Route>
         <Route 
-          path='/highway'
+          path='/info'
         ><Highway /></Route>
       </Switch>
 

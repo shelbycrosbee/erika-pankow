@@ -7,6 +7,7 @@ import tyler from '../../images/Tyler.png'
 import noah from '../../images/noah.jpg'
 import noah2 from '../../images/noah2.jpg'
 import shives from '../../images/shives.jpg'
+import shives2 from '../../images/shives2.jpeg'
 import katie from '../../images/katie.jpg'
 import luke from '../../images/luke.jpg'
 import luke2 from '../../images/luke2.jpeg'
@@ -31,7 +32,7 @@ export default class Recipients extends Component {
         <Grid container justify="center">
 
           <Grid item>
-            <h1>Recipients of EPSF Scholarships</h1>
+            <h1>EPSF Scholarship Recipients</h1>
           </Grid>
           </Grid>
         <Grid container justify="center" style={{ marginTop: '1em', marginBottom: '2em' }}>
@@ -45,6 +46,7 @@ export default class Recipients extends Component {
          
           <Grid item>
             <img src={shives} alt="shives" className="imgRecipients" />
+            <img src={shives2} alt="shives2" className="imgRecipients" />
             <figcaption>2018 Ian Shives and Flapjack <br/> <a href="https://www.americanavalancheinstitute.com/courses/k9-training-course/">American Avalanche Institiue K9 Training </a></figcaption>
           </Grid>
 

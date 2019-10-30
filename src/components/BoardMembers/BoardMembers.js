@@ -29,7 +29,7 @@ export default class BoardMembers extends Component {
             </Grid>
           </Grid>
           <Grid container spacing={1} justify="center"> 
-          <Grid item><b>Board Member Roles:</b>
+          <Grid item><h2>Board Member Roles:</h2>
         <ul>
               <li>
                 Positive Big Sky Community Member

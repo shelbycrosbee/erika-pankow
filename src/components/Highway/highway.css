@@ -1,6 +1,6 @@
 .highwayPhoto{
   overflow: hidden;
-  max-height: 80vh;
+  max-height: 50vh;
   justify-content: center;
   padding: 1em;
 }
