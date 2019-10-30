@@ -89,7 +89,7 @@ export default class Recipients extends Component {
           </Grid>
           <Grid item>
             <img src={dogs} alt="patrol dogs" className="imgRecipients" />
-            <figcaption>Mowgli with his Patrol Dog friends </figcaption>
+            <figcaption>Mowgli the chocolate lab with his Patrol Dog friends </figcaption>
           </Grid>
         </Grid>
       </div>
