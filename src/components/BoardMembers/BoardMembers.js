@@ -16,7 +16,7 @@ export default class BoardMembers extends Component {
           <Grid container spacing={3} >
             <Grid item lg={4} md={4} sm={6} className="memberCards">
               <figcaption>Mark Loomis Fire Department </figcaption>
-              <img src="https://bigskyfire.org/wp-content/uploads/2018/04/local-4732-big-sky-montana-fire-department-badge-resort-tax.png" alt="fire dept" className="logos"/>
+              {/* <img src="https://bigskyfire.org/wp-content/uploads/2018/04/local-4732-big-sky-montana-fire-department-badge-resort-tax.png" alt="fire dept" className="logos"/> */}
 
             </Grid>
             <Grid item lg={4} md={4} sm={6} className="memberCards">
